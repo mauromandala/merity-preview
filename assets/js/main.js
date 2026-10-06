@@ -313,7 +313,7 @@
       var previewNote = document.createElement('p');
       previewNote.setAttribute('role', 'status');
       previewNote.className = 'text-[#c41945] text-center bg-[#c41945]/10 border border-[#c41945]/30 rounded-xl w-full py-3 px-4 text-sm font-medium leading-5';
-      previewNote.textContent = {fr:'Aperçu : le formulaire est désactivé sur cette version de démonstration.',it:'Anteprima: il modulo è disattivato in questa versione dimostrativa.',en:'Preview: the form is disabled on this demo version.'}[lang];
+      previewNote.textContent = {fr: 'Aperçu : le formulaire est désactivé sur cette version de démonstration.', it: 'Anteprima: il modulo è disattivato in questa versione dimostrativa.', en: 'Preview: the form is disabled on this demo version.'}[lang];
       form.insertBefore(previewNote, form.firstChild);
       if (submitBtn) submitBtn.disabled = true;
       form.addEventListener('submit', function (e) { e.preventDefault(); });
